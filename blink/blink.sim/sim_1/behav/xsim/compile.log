@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/megamind/blink/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blink
+WARNING: [VRFC 10-986] literal value truncated to fit in 16 bits [/home/megamind/blink/top.v:9]
