@@ -1,0 +1,7 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/home/megamind/Verilog-codes/UART-RX/UART-RX.sim/sim_1/behav/xsim/glbl.v,1590202034,verilog,,,,glbl,,,,,,,,
+/home/megamind/Verilog-codes/UART-RX/UART-RX.srcs/sim_1/new/sim.v,1593545708,verilog,,,,UART_RX_TB,,,,,,,,
+/home/megamind/Verilog-codes/UART-RX/UART-RX.srcs/sources_1/new/UART.v,1593545761,verilog,,/home/megamind/Verilog-codes/UART-RX/UART-RX.srcs/sim_1/new/sim.v,,UART_RX,,,,,,,,

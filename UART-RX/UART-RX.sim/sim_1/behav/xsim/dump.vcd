@@ -1,0 +1,271 @@
+$date
+   Tue Jun 30 14:36:23 2020
+$end
+$version
+  2019.2
+$end
+$timescale
+  1ps
+$end
+$scope module UART_RX_TB $end
+$var reg 1 ! r_Clock $end
+$var reg 1 " r_RX_Serial $end
+$var wire 8 # w_RX_Byte [7:0] $end
+$var parameter 32 $ c_CLOCK_PERIOD_NS [31:0] $end
+$var parameter 32 % c_CLKS_PER_BIT [31:0] $end
+$var parameter 32 & c_BIT_PERIOD [31:0] $end
+$scope module UART_RX_INST $end
+$var wire 1 ' i_Clock $end
+$var wire 1 ( i_RX_Serial $end
+$var wire 1 ) o_RX_DV $end
+$var wire 8 # o_RX_Byte [7:0] $end
+$var reg 8 * r_Clock_Count [7:0] $end
+$var reg 3 + r_Bit_Index [2:0] $end
+$var reg 8 , r_RX_Byte [7:0] $end
+$var reg 1 - r_RX_DV $end
+$var reg 3 . r_SM_Main [2:0] $end
+$var parameter 32 / CLKS_PER_BIT [31:0] $end
+$var parameter 3 0 IDLE [2:0] $end
+$var parameter 3 1 RX_START_BIT [2:0] $end
+$var parameter 3 2 RX_DATA_BITS [2:0] $end
+$var parameter 3 3 RX_STOP_BIT [2:0] $end
+$var parameter 3 4 CLEANUP [2:0] $end
+$upscope $end
+$scope task UART_WRITE_BYTE $end
+$var reg 8 5 i_Data [7:0] $end
+$var integer 32 6 ii $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+b0 #
+b101000 $
+b11011001 %
+b10000110011000 &
+0'
+1(
+0)
+b0 *
+b0 +
+b0 ,
+0-
+b0 .
+b11011001 /
+b0 0
+b1 1
+b10 2
+b11 3
+b100 4
+bx 5
+bx 6
+$end
+#20000
+1!
+0"
+1'
+0(
+b0 *
+b0 +
+0-
+b0 .
+b110111 5
+#40000
+0!
+0'
+#60000
+1!
+1'
+b0 *
+b0 +
+0-
+b1 .
+#80000
+0!
+0'
+#100000
+1!
+1'
+b1 *
+b1 .
+#120000
+0!
+0'
+#140000
+1!
+1'
+b10 *
+b1 .
+#160000
+0!
+0'
+#180000
+1!
+1'
+b11 *
+b1 .
+#200000
+0!
+0'
+#220000
+1!
+1'
+b100 *
+b1 .
+#240000
+0!
+0'
+#260000
+1!
+1'
+b101 *
+b1 .
+#280000
+0!
+0'
+#300000
+1!
+1'
+b110 *
+b1 .
+#320000
+0!
+0'
+#340000
+1!
+1'
+b111 *
+b1 .
+#360000
+0!
+0'
+#380000
+1!
+1'
+b1000 *
+b1 .
+#400000
+0!
+0'
+#420000
+1!
+1'
+b1001 *
+b1 .
+#440000
+0!
+0'
+#460000
+1!
+1'
+b1010 *
+b1 .
+#480000
+0!
+0'
+#500000
+1!
+1'
+b1011 *
+b1 .
+#520000
+0!
+0'
+#540000
+1!
+1'
+b1100 *
+b1 .
+#560000
+0!
+0'
+#580000
+1!
+1'
+b1101 *
+b1 .
+#600000
+0!
+0'
+#620000
+1!
+1'
+b1110 *
+b1 .
+#640000
+0!
+0'
+#660000
+1!
+1'
+b1111 *
+b1 .
+#680000
+0!
+0'
+#700000
+1!
+1'
+b10000 *
+b1 .
+#720000
+0!
+0'
+#740000
+1!
+1'
+b10001 *
+b1 .
+#760000
+0!
+0'
+#780000
+1!
+1'
+b10010 *
+b1 .
+#800000
+0!
+0'
+#820000
+1!
+1'
+b10011 *
+b1 .
+#840000
+0!
+0'
+#860000
+1!
+1'
+b10100 *
+b1 .
+#880000
+0!
+0'
+#900000
+1!
+1'
+b10101 *
+b1 .
+#920000
+0!
+0'
+#940000
+1!
+1'
+b10110 *
+b1 .
+#960000
+0!
+0'
+#980000
+1!
+1'
+b10111 *
+b1 .
+#1000000
+0!
+0'

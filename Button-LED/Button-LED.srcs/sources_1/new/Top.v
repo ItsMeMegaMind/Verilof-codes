@@ -20,16 +20,17 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module light (input CLK, input PIN_17, output PIN_23);
-  reg oldstate=1;
-  reg PIN_23 = 1;
-  wire PIN_17;
+  reg oldstate=0;
+  reg PIN_23=0;
+
   always @ ( posedge CLK ) begin
-      if (oldstate==1)
+      if (PIN_17==1 &~oldstate)
         begin
-        oldstate <=0;
+        oldstate <=1;
         PIN_23 <=~PIN_23;
         end
-      else
-        oldstate<=~oldstate;
+      else if (~PIN_17)
+        oldstate<=0;
   end
 endmodule
+
